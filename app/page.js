@@ -16,7 +16,7 @@ export default function Home() {
         <div class="self-stretch px-3 py-1 bg-gradient-to-b from-neutral-800 to-zinc-900 rounded inline-flex justify-between items-center">
           <div class="flex-1 min-h-6 py-1 flex justify-center items-center">
             <div class="inline-flex flex-col justify-start items-start">
-              <div class="justify-center text-zinc-100 text-xs font-normal font-['Inter'] leading-none">We're doing a quick network upgrade on 26 September 2025 at 20:30 UTC. Expect brief performance degradation lasting less than 5 minutes.</div>
+              <div className="justify-center text-zinc-100 text-xs font-normal font-['Inter'] leading-none">We're doing a quick network upgrade on 26 September 2025 at 20:30 UTC. Expect brief performance degradation lasting less than 5 minutes.</div>
             </div>
           </div>
           <div class="w-4 h-4 flex justify-center items-center">
@@ -585,7 +585,7 @@ export default function Home() {
                           <div class="w-[1151px] h-[478px] left-0 top-0 absolute inline-flex flex-col justify-start items-start overflow-hidden">
                             <div class="self-stretch inline-flex justify-start items-start">
                               <div class="w-[1091px] h-72 max-w-[1091px] max-h-72 pl-1 pr-24 relative flex justify-center items-start overflow-hidden">
-                                <img class="w-[1091px] h-72 left-0 top-0 absolute" src="https://placehold.co/1091x301" />
+                                <Image width={1091} height={301} class="w-[1091px] h-72 left-0 top-0 absolute" src="https://placehold.co/1091x301" />
                                 <div class="flex-1 max-w-[994px] pt-1 inline-flex flex-col justify-start items-start">
                                   <div class="w-full max-w-[994px] min-h-6 inline-flex justify-start items-start flex-wrap content-start">
                                     <div class="w-44 self-stretch max-w-[953px] relative">
@@ -675,12 +675,12 @@ export default function Home() {
                                   </div>
                                 </div>
                               </div>
-                              <img class="w-14 h-72 relative" src="https://placehold.co/60x301" />
+                              <Image width={60} height={301} class="w-14 h-72 relative" src="https://placehold.co/60x301" />
                             </div>
                             <div class="self-stretch h-px relative bg-gray-800"></div>
                             <div class="self-stretch inline-flex justify-start items-start">
                               <div class="w-[1091px] h-36 max-w-[1091px] max-h-36 pl-1 pr-28 relative flex justify-center items-start overflow-hidden">
-                                <img class="w-[1091px] h-36 left-0 top-0 absolute" src="https://placehold.co/1091x150" />
+                                <Image width={1091} height={150} class="w-[1091px] h-36 left-0 top-0 absolute" src="https://placehold.co/1091x150" />
                                 <div  class="flex-1 max-w-[970px] pt-1 inline-flex flex-col justify-start items-start">
                                   <div class="w-full h-6 max-w-[970px] min-h-6 relative">
                                     <div class="h-6 max-w-[970px] left-0 top-0 absolute inline-flex justify-start items-start">
@@ -758,15 +758,15 @@ export default function Home() {
                                   </div>
                                 </div>
                               </div>
-                              <img class="w-14 h-36 relative" src="https://placehold.co/60x150" />
+                              <Image width={60} height={150} class="w-14 h-36 relative" src="https://placehold.co/60x150" />
                             </div>
                             <div class="self-stretch inline-flex justify-start items-start">
                               <div class="w-[1091px] h-6 inline-flex flex-col justify-center items-start">
                                 <div class="self-stretch flex-1 relative overflow-hidden">
-                                  <img class="w-[1091px] h-6 left-0 top-0 absolute" src="https://placehold.co/1091x26" />
+                                  <Image width={1091} height={26} class="w-[1091px] h-6 left-0 top-0 absolute" src="https://placehold.co/1091x26" />
                                 </div>
                               </div>
-                              <img class="w-14 h-6 relative" src="https://placehold.co/60x26" />
+                              <Image width={60} height={26} class="w-14 h-6 relative" src="https://placehold.co/60x26" />
                             </div>
                           </div>
                         </div>
